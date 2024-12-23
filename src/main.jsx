@@ -5,7 +5,6 @@ import { createRoot } from 'react-dom/client'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    My name is madhvvi
+    My name is priyal
   </StrictMode>,
 )
-//hy
