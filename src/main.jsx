@@ -1,7 +1,8 @@
 import React from 'react';
 import {createRoot } from 'react-dom/client'
 import {StrictMode } from 'react'
-import Component1 from './lec2412/component1';
+// import Component1 from './lec2412/component1';
+import HtmlComponent from './lec2412/htmlcomponents';
 
 // 1. class based implementation
 //2 . function based implementation
@@ -9,6 +10,7 @@ import Component1 from './lec2412/component1';
 // <DIV> FOR HTML BUT HERE <div> is for react
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <Component1/>
+   {/* <Component1/> */}
+   <HtmlComponent/>
   </StrictMode>,
 )
