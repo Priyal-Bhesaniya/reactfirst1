@@ -12,5 +12,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
    {/* <Component1/> */}
    <HtmlComponent/>
+   <div>hello</div>
   </StrictMode>,
 )
