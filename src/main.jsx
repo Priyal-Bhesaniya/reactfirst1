@@ -5,6 +5,7 @@ import {StrictMode } from 'react'
 import HtmlComponent from './lec2412/htmlcomponents';
 
 // 1. class based implementation
+// adding a coment 
 //2 . function based implementation
 //3. jsx javascript xml
 // <DIV> FOR HTML BUT HERE <div> is for react
