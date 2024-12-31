@@ -3,7 +3,8 @@ import {createRoot } from 'react-dom/client'
 import {StrictMode } from 'react'
 // import StateMerge from './lec3012/state3';
 // import MyButton from './lec3112/propsexmp';
-import MyCustComp from './lec3112/propsexmp3';
+// import MyCustComp from './lec3112/propsexmp3';
+import Purefunc1 from './lec3112/purefunc1';
 // import MyList from './lec3112/propsexmp2';
 // import Timetable from './lec2412/timetable';
 // import StateABC from './lec3012/stack1';
@@ -21,12 +22,20 @@ createRoot(document.getElementById('root')).render(
    {/* <Component1/> */}
    {/* <HtmlComponent/> */}
    {/* <Timetable/> */}
-   {/* <StateABC/>}
-  //  <Statexyz/> */}
+   {/* <StateABC/>*/}
+   {/*  <Statexyz/> */}
    {/* <MyButton/> */}
-   <MyCustComp/>
+   {/* <MyCustComp/> */}
    {/* <MyList/> */}
-{/* <StateMerge/> */}
+   {/* <StateMerge/> */}
+
+
+
+
+{/*anonymous function  function as a component */}
+
+<Purefunc1 var1={ true} var2={"hello"}/>  
+<Purefunc1 var1={ false} var2={"world"}/> 
    
   </StrictMode>,
 )
