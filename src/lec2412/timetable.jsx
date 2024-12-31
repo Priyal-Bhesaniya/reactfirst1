@@ -125,4 +125,4 @@ class Timetable extends React.Component {
         )
     }
 }
-export default Timetable
+export default Timetable 
